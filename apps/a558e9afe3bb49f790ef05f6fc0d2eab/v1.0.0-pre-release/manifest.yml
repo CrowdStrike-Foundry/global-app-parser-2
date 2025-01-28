@@ -1,0 +1,33 @@
+app_id: a558e9afe3bb49f790ef05f6fc0d2eab
+name: Global app parser 2
+description: ""
+logo: ""
+manifest_version: ""
+ignored: []
+ui:
+    homepage: ""
+    extensions: []
+    pages: {}
+    dashboards: {}
+    navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections: []
+auth:
+    scopes: []
+    permissions: {}
+    roles: []
+functions: []
+workflows: []
+parsers:
+    - name: Okta666
+      description: ""
+      path: parsers/Okta666/script.txt
+      fields_to_tag: []
+      fields_to_remove: []
+      is_data_connector: true
+      tests_path: ""
+logscale:
+    saved_searches: []
+lookup_files: []
+app_docs: []
